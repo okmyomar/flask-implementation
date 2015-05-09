@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>
+            {% if title %}
+                {{ title }} microblog
+            {% else %}
+                Welcome to microblog
+            {% endif %}
+        </title>
+    </head>
+    <body>
+        <h1>Hello!! {{ user.nickname }}</h1>
+    </body>
+</html>
